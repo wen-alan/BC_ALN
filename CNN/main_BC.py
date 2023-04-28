@@ -27,7 +27,7 @@ parser.add_argument('--dataset', type=str, default='BC', help='CNN architecture'
 parser.add_argument('--bs', default=32, type=int, help='batch size')
 parser.add_argument('--lr', default=0.005, type=float, help='learning rate') # 0.01, 0.005
 parser.add_argument('--resume', '-r', action='store_true', help='resume from checkpoint')
-parser.add_argument('--save_dir', type=str, default='result_model_lr5e3_s4_size128_notDrop', help='save log and model')
+parser.add_argument('--save_dir', type=str, default='result_model', help='save log and model')
 opt = parser.parse_args()
 
 # SEED = 2
